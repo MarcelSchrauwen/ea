@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.4.1:1", "", "Twiin afsprakenstelsel", "EARoot/EA1/EA4/EA1/EA56.htm", "175.png", "15393", "0", "", "Logical diagram0","{52CA46E4-8C39-4ad3-994C-BD244A036C01}");
+tocTab[tocTab.length] = new Array("0.1.4.1:2", "", "Vraag", "EARoot/EA1/EA4/EA1/EA62.htm", "204.png", "E103746", "0", "", "InformationItem0","{C2665BA3-9B3A-4da2-BF19-F7EFBB877563}");
+tocTab[tocTab.length] = new Array("0.1.4.1.1", "1", "Juridische afspraken", "EARoot/EA1/EA4/EA1/EA1/EA69.htm", "4.png", "", "", "{CAA5FC91-1285-4c80-B1D0-48228DDF23E4}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.1.2", "1", "Vertrouwensafspraken", "EARoot/EA1/EA4/EA1/EA2/EA86.htm", "4.png", "", "", "{2751BF64-5B3D-455b-9EB3-4F7E8849BF4D}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.1.3", "1", "Technische kern", "EARoot/EA1/EA4/EA1/EA3/EA117.htm", "4.png", "", "", "{B5C0E5FC-E593-4c88-BE33-456E7AD32174}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.1.4", "1", "Bijlagen", "EARoot/EA1/EA4/EA1/EA4/EA129.htm", "4.png", "", "", "{20183887-1CBB-43de-B5DA-D339637348F3}", "Package");
