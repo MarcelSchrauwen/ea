@@ -1,2 +1,2 @@
 # tw_ea
-Werkomgeving voor enterprise architectuur
+Werk- en uitprobeeromgeving.
