@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Metamodel Elementen::Zorgaanbieder</title>
+<title>Open Toestemmingsvraag</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Metamodel Elementen::Zorgaanbieder </h1>
+			<h1> Open Toestemmingsvraag </h1>
 			<!-- <img class="header_image" src="../../../../images/Twiin.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../../images/Twiin.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../../index.htm">Twiin</a> / <a href="../../EA446.htm">Architectuur release 1.1 beta</a> / <a href="../EA462.htm">Metamodel</a> / <a href="EA471.htm">Metamodel Elementen</a> / <a href="EA495.htm">Zorgaanbieder</a></p>
+			<p><a href="../../../../index.htm">Twiin</a> / <a href="../../EA452.htm">Architectuur release 1.1 beta</a> / <a href="../EA468.htm">Metamodel</a> / <a href="EA477.htm">Metamodel Elementen</a> / <a href="EA495.htm">Open Toestemmingsvraag</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,17 +84,17 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Architectuur: </div>
 						<ul>
-<a href="EA471.htm">Metamodel Elementen</a></ul>
+<a href="EA477.htm">Metamodel Elementen</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">Zorgaanbieder<!--  : Public  &lt;&lt;ArchiMate_BusinessRole&gt;&gt; BusinessRole --></span>
+	<span class="ObjectTitle">Open Toestemmingsvraag<!--  : Public  &lt;&lt;ArchiMate_ApplicationService&gt;&gt; ApplicationService --></span>
 	<span class="Note"></span>
 		<table>
 		<tr>
 			<td class="Views">Views:</br></td>
-			<td class="ViewsValue"><a href="../EA458.htm">Voorbeeld invulling generiek metamodel</a></td>
+			<td class="ViewsValue"><a href="../EA464.htm">Voorbeeld invulling generiek metamodel</a></td>
 		<tr>
 	</table>
 	<table border="0" class="ObjectDetails">
@@ -105,11 +105,11 @@
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
-			<td class="ObjectDetailsValue">17-8-2022 15:53:13</td>
+			<td class="ObjectDetailsValue">17-8-2022 15:48:44</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
-			<td class="ObjectDetailsValue">14-10-2022 09:56:42</td>
+			<td class="ObjectDetailsValue">14-10-2022 09:56:47</td>
 		</tr>
 		<tr id="proj02" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
@@ -125,11 +125,12 @@
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Type:</td>
-			<td class="ObjectDetailsValue">BusinessRole</td>
+			<td class="ObjectDetailsValue">ApplicationService</td>
 		</tr>
 	</table>	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
 			<li onClick="toggleItem('AssociationsTo');" id="AssociationsToTitle">Associations To</li>
+			<li onClick="toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
 			<li onClick="toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
 			<li onClick="toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 			<li onClick="toggleItem('Links');" id="LinksTitle">Other Links</li>
@@ -143,8 +144,8 @@
         </tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA490.htm">«ArchiMate_ApplicationFunction» Tijdlijnfunctie</a><br />
-						ApplicationFunction «ArchiMate_Association» 
+						<a href="EA491.htm">«ArchiMate_BusinessService» Lokalisatie</a><br />
+						BusinessService «ArchiMate_Serving» 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
 						<strong>Name:</strong> &nbsp;<br />
@@ -157,8 +158,64 @@
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink446" /></button>Details:
-							<div id="detailsDIVLink446" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink433" /></button>Details:
+							<div id="detailsDIVLink433" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+    </table>
+</div>
+<div class="ItemBody" id="AssociationsFromTable">
+    <table class="Table ea_table">
+        <tr>
+            <td width="100%" class="TableHeading">Element</td>
+            <!-- <td width="30%" class="TableHeading">Source Role</td>
+            <td width="30%" class="TableHeading">Target Role</td> -->
+        </tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA490.htm">«ArchiMate_ApplicationInterface» FHIR interface</a><br />
+						ApplicationInterface «ArchiMate_Assignment» 
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink434" /></button>Details:
+							<div id="detailsDIVLink434" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA499.htm">«ArchiMate_ApplicationInterface» XACML interface</a><br />
+						ApplicationInterface «ArchiMate_Assignment» 
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> &nbsp;<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink435" /></button>Details:
+							<div id="detailsDIVLink435" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>
@@ -175,15 +232,15 @@
 				</tr>
 				<tr>
 					<td width="50%" class="TableRow" valign="top">
-						<a href="EA485.htm">Lokalisatie</a><br />
-						<!-- Activity «ArchiMate_Flow» 
+						<a href="EA496.htm">Tijdlijnfunctie</a><br />
+						<!-- Activity «ArchiMate_Triggering» 
 					</td>
-					<td width="50%" class="TableRow" valign="top">gebruikt</td>					
+					<td width="50%" class="TableRow" valign="top">roept aan</td>					
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="2">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow447" /></button>Details:
-							<div id="detailsDIVLinkFlow447" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow436" /></button>Details:
+							<div id="detailsDIVLinkFlow436" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>  -->
@@ -204,7 +261,12 @@
 
 			<tr>
 				<td width="30%" class="TableRow">_defaultDiagramType:</td>
-				<td width="70%" class="TableRow">ArchiMate3::Business</td>
+				<td width="70%" class="TableRow">ArchiMate3::Application</td>
+			</tr>
+
+			<tr>
+				<td width="30%" class="TableRow">isReadOnly:</td>
+				<td width="70%" class="TableRow">false</td>
 			</tr>
 
 			<tr>
@@ -224,10 +286,10 @@
 					<td width="40%" class="TableHeading">Notes</td> -->
 				</tr>
 				<tr>
-					<td width="100%" class="TableRow" valign="top"><a href="EA486.htm">«ArchiMate_BusinessObject» Lokatie</a></td>
-					<!-- <td width="10%" class="TableRow" valign="top">BusinessObject</td>
+					<td width="100%" class="TableRow" valign="top"><a href="EA494.htm">«ArchiMate_ApplicationComponent» Mitz</a></td>
+					<!-- <td width="10%" class="TableRow" valign="top">ApplicationComponent</td>
 					<td width="10%" class="TableRow" valign="top">Dependency</td>
-					<td width="10%" class="TableRow" valign="top">To</td>
+					<td width="10%" class="TableRow" valign="top">From</td>
 					<td width="40%" class="TableRow" valign="top">&nbsp;</td> -->
 				</tr>
 

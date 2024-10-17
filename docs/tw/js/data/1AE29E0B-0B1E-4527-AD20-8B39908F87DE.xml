@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.1.8.3.2.7.1", "1", "Algemeen", "EARoot/EA1/EA8/EA3/EA2/EA7/EA1/EA333.htm", "4.png", "", "", "{1C680DD9-F5FB-4058-BF48-9266946F4B44}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.3.2.7.2", "1", "Uitwisselpatronen", "EARoot/EA1/EA8/EA3/EA2/EA7/EA2/EA341.htm", "4.png", "", "", "{82296BFD-88E1-4416-B9D9-EC5D90B2A5C1}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.3.2.7.3", "1", "Generieke functie", "EARoot/EA1/EA8/EA3/EA2/EA7/EA3/EA346.htm", "4.png", "", "", "{70F1641E-7180-454b-B1B1-E78F642E3573}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.3.2.7.4", "1", "Technical agreements - TTA", "EARoot/EA1/EA8/EA3/EA2/EA7/EA4/EA353.htm", "4.png", "", "", "{D5F96CB5-D2B7-4c2e-9D25-77B0BEA0CEE1}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.3.2.7.5", "1", "Transactions - TTA", "EARoot/EA1/EA8/EA3/EA2/EA7/EA5/EA364.htm", "4.png", "", "", "{AF30220C-E063-46fa-8511-06FC9426D6D9}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.3.2.7.6", "1", "Transactions - IHE", "EARoot/EA1/EA8/EA3/EA2/EA7/EA6/EA374.htm", "4.png", "", "", "{EE27377A-49EB-4613-8ABC-92018B6BA2E1}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.3.2.7.7", "1", "Content", "EARoot/EA1/EA8/EA3/EA2/EA7/EA7/EA382.htm", "4.png", "", "", "{5EADC62E-8F18-4211-841D-E4B4306029C7}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.3.2.7.1", "1", "Algemeen", "EARoot/EA1/EA8/EA3/EA2/EA7/EA1/EA338.htm", "4.png", "", "", "{1C680DD9-F5FB-4058-BF48-9266946F4B44}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.3.2.7.2", "1", "Uitwisselpatronen", "EARoot/EA1/EA8/EA3/EA2/EA7/EA2/EA346.htm", "4.png", "", "", "{82296BFD-88E1-4416-B9D9-EC5D90B2A5C1}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.3.2.7.3", "1", "Generieke functie", "EARoot/EA1/EA8/EA3/EA2/EA7/EA3/EA351.htm", "4.png", "", "", "{70F1641E-7180-454b-B1B1-E78F642E3573}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.3.2.7.4", "1", "Technical agreements - TTA", "EARoot/EA1/EA8/EA3/EA2/EA7/EA4/EA358.htm", "4.png", "", "", "{D5F96CB5-D2B7-4c2e-9D25-77B0BEA0CEE1}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.3.2.7.5", "1", "Transactions - TTA", "EARoot/EA1/EA8/EA3/EA2/EA7/EA5/EA369.htm", "4.png", "", "", "{AF30220C-E063-46fa-8511-06FC9426D6D9}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.3.2.7.6", "1", "Transactions - IHE", "EARoot/EA1/EA8/EA3/EA2/EA7/EA6/EA379.htm", "4.png", "", "", "{EE27377A-49EB-4613-8ABC-92018B6BA2E1}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.3.2.7.7", "1", "Content", "EARoot/EA1/EA8/EA3/EA2/EA7/EA7/EA387.htm", "4.png", "", "", "{5EADC62E-8F18-4211-841D-E4B4306029C7}", "Package");

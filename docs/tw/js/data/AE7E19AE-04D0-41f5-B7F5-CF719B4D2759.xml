@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.2.6.1:1", "", "Gerichte bevraging", "EARoot/EA2/EA6/EA1/EA541.htm", "175.png", "14243", "0", "", "Logical diagram0","{99DC84A5-52C9-41b9-BDB1-9D8D60C8FB7E}");
-tocTab[tocTab.length] = new Array("0.2.6.1:2", "", "Gerichte bevraging - FHIR", "EARoot/EA2/EA6/EA1/EA543.htm", "185.png", "14246", "0", "", "Sequence diagram0","{2F09204D-C3EC-454c-9E15-A3D23B7F9B20}");
+tocTab[tocTab.length] = new Array("0.2.6.1:1", "", "Gerichte bevraging", "EARoot/EA2/EA6/EA1/EA547.htm", "175.png", "14243", "0", "", "Logical diagram0","{99DC84A5-52C9-41b9-BDB1-9D8D60C8FB7E}");
+tocTab[tocTab.length] = new Array("0.2.6.1:2", "", "Gerichte bevraging - FHIR", "EARoot/EA2/EA6/EA1/EA549.htm", "185.png", "14246", "0", "", "Sequence diagram0","{2F09204D-C3EC-454c-9E15-A3D23B7F9B20}");

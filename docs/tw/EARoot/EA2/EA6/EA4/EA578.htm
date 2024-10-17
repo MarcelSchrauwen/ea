@@ -69,7 +69,7 @@
 			<img class="header_image" src="../../../../images/Twiin.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../../index.htm">Twiin</a> / <a href="../../EA446.htm">Architectuur release 1.1 beta</a> / <a href="../EA536.htm">Uitwisselconcepten</a> / <a href="EA578.htm">Notified Pull</a></p>
+			<p><a href="../../../../index.htm">Twiin</a> / <a href="../../EA452.htm">Architectuur release 1.1 beta</a> / <a href="../EA542.htm">Uitwisselconcepten</a> / <a href="EA584.htm">Notified Pull</a> / <a href="EA578.htm">Notified Pull</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,22 +84,34 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Architectuur: </div>
 						<ul>
-<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="EA572.htm">Notified Pull</a></li>
-<li><img src="../../../../images/185.png" alt="Diagram"/> <a href="EA574.htm">Notified Pull (FHIR)</a></li>
-<li><img src="../../../../images/185.png" alt="Diagram"/> <a href="EA576.htm">Notified Pull (IHE XDS)</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="EA578.htm">Notified Pull</a></li>
+<li><img src="../../../../images/185.png" alt="Diagram"/> <a href="EA580.htm">Notified Pull (FHIR)</a></li>
+<li><img src="../../../../images/185.png" alt="Diagram"/> <a href="EA582.htm">Notified Pull (IHE XDS)</a></li>
 </ul>
 
 					</td>
-					<td class="contentcell"><div class="pageHeader"></div>
-<div class="PageBody">
-	<span class="ObjectTitle">Notified Pull<!--  : Public   Package --></span>
-	<span class="Note"><div class="ObjectDetailsNotes">Gegevens over een persoon mogen alleen verwerkt worden met diens toestemming. Wanneer een behandelrelatie ontstaat tussen een pati&#195;&#171;nt en een zorgaanbieder, zal de toestemming om (medische) persoonsgegevens te verwerken veelal impliciet zijn. Bij elektronische uitwisseling van medische gegevens geldt dat de pati&#195;&#171;nt toestemming moet geven voor het beschikbaar stellen van zijn gegevens voor mogelijke raadpleging door een andere zorgaanbieder in de toekomst. De zorgaanbieder moet de pati&#195;&#171;nt informeren welke medische gegevens eventueel op te vragen zijn door andere zorgaanbieders. Op basis daarvan geeft de pati&#195;&#171;nt uitdrukkelijk wel of geen toestemming voor het beschikbaar stellen van de gegevens. &lt;br/&gt;</div></span>
-		<table>
-		<tr>
-			<td class="Views">Views:</br></td>
-			<td class="ViewsValue"></td>
-		<tr>
-	</table>
+					<td class="contentcell"><div class="PageBody">
+    <!-- <div class="ObjectTitle">Notified Pull</div> -->
+    <div class=diagram_image> 
+<img src="EA579.png" usemap="#EA579" border="0" />
+
+<MAP NAME="EA579">
+<area shape="rect" coords="155,210,245,280" href="../../EA9/EA779.htm" target="_self">
+<area shape="rect" coords="405,50,495,120" href="../../EA9/EA762.htm" target="_self">
+<area shape="rect" coords="465,520,595,590" href="../../EA9/EA794.htm" target="_self">
+<area shape="rect" coords="461,425,596,500" href="../../EA9/EA800.htm" target="_self">
+<area shape="rect" coords="253,429,388,504" href="../../EA9/EA796.htm" target="_self">
+<area shape="rect" coords="51,425,186,500" href="../../EA9/EA795.htm" target="_self">
+<area shape="rect" coords="55,520,190,595" href="../../EA9/EA797.htm" target="_self">
+<area shape="rect" coords="255,520,390,595" href="../../EA9/EA799.htm" target="_self">
+<area shape="rect" coords="15,370,635,634" href="../../EA9/EA754.htm" target="_self">
+<area shape="rect" coords="395,210,485,280" href="../../EA9/EA755.htm" target="_self">
+<area shape="rect" coords="155,50,245,120" href="../../EA9/EA785.htm" target="_self">
+<area shape="rect" coords="15,170,635,330" href="../EA3/EA576.htm" target="_self">
+<area shape="rect" coords="15,10,635,150" href="../EA3/EA577.htm" target="_self">
+</MAP>
+ </br></div>
+	<div class="ObjectDetailsNotes">&lt;ol&gt;<br />&lt;li&gt;Vanuit een bronsysteem wordt een notificatie gestuurd naar de beoogde zorgaanbieder, via de GTK-applicatie&lt;/li&gt;&lt;li&gt;De GTK-applicatie gebuikt de generieke functies om het technische adres te achterhalen waar de notificatie naar doorgestuurd moet worden&lt;/li&gt;&lt;li&gt;De notificatie wordt doorgestuurd naar de ontvangende GtK-applicatie 2&lt;/li&gt;&lt;li&gt;GtK-applicatie 2 zet de notificatie weer door naar het doelsysteem XIS ZA-2&lt;/li&gt;&lt;li&gt; Op basis van de ontvangen notificatie zal XIS ZA-2 de gegeven willen raadplegen. Vanuit een raadplegend XIS wordt aan de raadplegende GtK-applicatie waarop hij aangesloten is een vraag gesteld.&lt;/li&gt;&lt;li&gt;De raadplegende GtK-applicatie stuurt de vraag door naar de bron GTK-applicatie.&lt;/li&gt;&lt;li&gt;(optioneel) De bron GtK-applicatie controleert de medische autorisatie en de pati&#235;nttoestemming bij de gemeenschappelijke voorzieningen.&lt;/li&gt;&lt;li&gt;De bron GtK-applicatie stuurt de vraag door aan het bron XIS.&lt;/li&gt;&lt;li&gt;Het bron XIS geeft de gevraagde data terug aan de bron GtK-applicatie&lt;/li&gt;&lt;li&gt;De bron GtK-applicatie stuurt het antwoord door aan de raadplegende GtK-applicatie.&lt;/li&gt;&lt;li&gt;De raadplegende GtK-applicatie geeft het antwoord terug aan het raadplegende XIS.&lt;/li&gt;&lt;/ol&gt;&lt;p/&gt;</div>
 	<table border="0" class="ObjectDetails">
 		<tr style="height: 10px"><td colspan="2"></td></tr>
 		<tr>
@@ -108,29 +120,24 @@
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
-			<td class="ObjectDetailsValue">5-2-2021 15:59:57</td>
+			<td class="ObjectDetailsValue">25-10-2022 15:22:56</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
-			<td class="ObjectDetailsValue">25-10-2022 15:09:05</td>
+			<td class="ObjectDetailsValue">9-11-2022 13:27:11</td>
 		</tr>
 		<tr id="proj02" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
-			<td class="ObjectDetailsValue">Wouter Tesink</td>
+			<td class="ObjectDetailsValue">Marc Sandberg</td>
 		</tr>
 		<tr id="proj03" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Versie:</td>
 			<td class="ObjectDetailsValue">1.0</td>
 		</tr>
-		<tr id="proj04" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
-			<td class="ObjectDetailsValue">Proposed</td>
-		</tr>
-		<tr id="proj05" style="display: none;">
-			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Type:</td>
-			<td class="ObjectDetailsValue">Package</td>
-		</tr>
-	</table> </div>
+	</table>
+<div/>
+
+
  </td>
 				</tr>
 			</tbody>

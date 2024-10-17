@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.2.8.1", "", "Basis Gegevensset Zorg", "EARoot/EA2/EA8/EA1/EA624.htm", "4.png", "", "", "{0F1DC0A4-B25E-4871-B957-7EDC082B84F0}", "Package");
-tocTab[tocTab.length] = new Array("0.2.8.2", "1", "Beeldbeschikbaarheid", "EARoot/EA2/EA8/EA2/EA625.htm", "4.png", "", "", "{208A1E02-EEE7-4d11-83C4-A74318652A5C}", "Package");
-tocTab[tocTab.length] = new Array("0.2.8.3", "", "eOverdracht", "EARoot/EA2/EA8/EA3/EA739.htm", "4.png", "", "", "{012B66D4-1C9A-40e4-9040-32EAC5CFB37D}", "Package");
+tocTab[tocTab.length] = new Array("0.2.8.1", "", "Basis Gegevensset Zorg", "EARoot/EA2/EA8/EA1/EA630.htm", "4.png", "", "", "{0F1DC0A4-B25E-4871-B957-7EDC082B84F0}", "Package");
+tocTab[tocTab.length] = new Array("0.2.8.2", "1", "Beeldbeschikbaarheid", "EARoot/EA2/EA8/EA2/EA631.htm", "4.png", "", "", "{208A1E02-EEE7-4d11-83C4-A74318652A5C}", "Package");
+tocTab[tocTab.length] = new Array("0.2.8.3", "", "eOverdracht", "EARoot/EA2/EA8/EA3/EA745.htm", "4.png", "", "", "{012B66D4-1C9A-40e4-9040-32EAC5CFB37D}", "Package");
