@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.2.6.2:1", "", "Geïndexeerde bevraging", "EARoot/EA2/EA6/EA2/EA555.htm", "175.png", "14231", "0", "", "Logical diagram0","{4A90C99A-EF79-424a-909F-7D42416074C4}");
-tocTab[tocTab.length] = new Array("0.2.6.2:2", "", "Geïndexeerde bevraging - IHE XDS", "EARoot/EA2/EA6/EA2/EA557.htm", "185.png", "14234", "0", "", "Sequence diagram0","{854DA50E-D0BC-48b7-95CF-D21177292B8F}");
-tocTab[tocTab.length] = new Array("0.2.6.2:3", "", "Geïndexeerde bevraging - FHIR", "EARoot/EA2/EA6/EA2/EA559.htm", "185.png", "14239", "0", "", "Sequence diagram0","{3CB62205-0DBB-44df-8581-A9A26DA17ED0}");
+tocTab[tocTab.length] = new Array("0.2.6.2:1", "", "Geïndexeerde bevraging", "EARoot/EA2/EA6/EA2/EA556.htm", "175.png", "14231", "0", "", "Logical diagram0","{4A90C99A-EF79-424a-909F-7D42416074C4}");
+tocTab[tocTab.length] = new Array("0.2.6.2:2", "", "Geïndexeerde bevraging - IHE XDS", "EARoot/EA2/EA6/EA2/EA558.htm", "185.png", "14234", "0", "", "Sequence diagram0","{854DA50E-D0BC-48b7-95CF-D21177292B8F}");
+tocTab[tocTab.length] = new Array("0.2.6.2:3", "", "Geïndexeerde bevraging - FHIR", "EARoot/EA2/EA6/EA2/EA560.htm", "185.png", "14239", "0", "", "Sequence diagram0","{3CB62205-0DBB-44df-8581-A9A26DA17ED0}");

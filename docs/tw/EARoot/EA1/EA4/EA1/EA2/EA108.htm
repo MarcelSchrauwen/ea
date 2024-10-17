@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Vertrouwensafspraken::TREQ.V003 - Autorisatie::TREQ.V003.1 - Vertrouwelijkheid</title>
+<title>Vertrouwensafspraken::TREQ.V002 - Authenticatie::TREQ.V002.2 - Zekerheid identiteit zorgverlener</title>
 <link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Vertrouwensafspraken::TREQ.V003 - Autorisatie::TREQ.V003.1 - Vertrouwelijkheid </h1>
+			<h1> Vertrouwensafspraken::TREQ.V002 - Authenticatie::TREQ.V002.2 - Zekerheid identiteit zorgverlener </h1>
 			<!-- <img class="header_image" src="../../../../../images/Twiin.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../../../images/Twiin.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../../../index.htm">Twiin</a> / <a href="../../../EA1.htm">Enterprise architectuur</a> / <a href="../../EA52.htm">EA | Afsprakenstelsel</a> / <a href="../EA58.htm">Twiin afsprakenstelsel v 1.2.1</a> / <a href="EA86.htm">Vertrouwensafspraken</a> / <a href="EA96.htm">TREQ.V003 - Autorisatie</a> / <a href="EA108.htm">TREQ.V003.1 - Vertrouwelijkheid</a></p>
+			<p><a href="../../../../../index.htm">Twiin</a> / <a href="../../../EA1.htm">Enterprise architectuur</a> / <a href="../../EA53.htm">EA | Afsprakenstelsel</a> / <a href="../EA59.htm">Twiin afsprakenstelsel v 1.2.1</a> / <a href="EA87.htm">Vertrouwensafspraken</a> / <a href="EA95.htm">TREQ.V002 - Authenticatie</a> / <a href="EA108.htm">TREQ.V002.2 - Zekerheid identiteit zorgverlener</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,17 +84,17 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Architectuur: </div>
 						<ul>
-<a href="EA96.htm">TREQ.V003 - Autorisatie</a></ul>
+<a href="EA95.htm">TREQ.V002 - Authenticatie</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">TREQ.V003.1 - Vertrouwelijkheid<!--  : Public  &lt;&lt;ArchiMate_Constraint&gt;&gt; Constraint --></span>
-	<span class="Note"><div class="ObjectDetailsNotes">&lt;b&gt;Vereiste&lt;/b&gt;&lt;br/&gt;De bron is verplicht om te zorgen dat niet meer gegevens worden geraadpleegd/vrijgegeven dan noodzakelijk. &lt;br/&gt;&lt;br/&gt;&lt;b&gt;Verantwoordelijkheid&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Bij verzenden:&lt;/i&gt;&lt;br/&gt;Dossierhouder&lt;br/&gt;&lt;br/&gt;&lt;i&gt;Bij raadpleegbaar maken:&lt;/i&gt;&lt;br/&gt;Dossierhouder&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Invulling Twiin&lt;/b&gt;&lt;br/&gt;Landelijke medische autorisatieprotocollen toepassen. &lt;br/&gt;&lt;br/&gt;&lt;b&gt;Toelichting&lt;/b&gt;&lt;br/&gt;Twiin volgt de ontwikkeling van de landelijke afspraken over autorisatie en zal daarop aansluiten. De beschikbare landelijke medische autorisatieprotocollen zijn gebaseerd op UZI-rolcodes voor directe toegang tot het uitwisselingssysteem.&lt;br/&gt;In niet alle sectoren is er sprake van een eenduig interpretatie van wet- en regelgeving. Voor het mandateren van medewerkers (ook zorgverlener conform de wet BIG) kan een zorgaanbieder kiezen.&lt;br/&gt;</div></span>
+	<span class="ObjectTitle">TREQ.V002.2 - Zekerheid identiteit zorgverlener<!--  : Public  &lt;&lt;ArchiMate_Constraint&gt;&gt; Constraint --></span>
+	<span class="Note"><div class="ObjectDetailsNotes">&lt;b&gt;Vereiste&lt;/b&gt;&lt;br/&gt;Zorgaanbieders moeten de voor de uitwisseling verantwoordelijke zorgverlener met zekerheid kunnen identificeren.&#160;&#160;&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Verantwoordelijkheid&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Bij raadpleegbaar maken:&lt;/i&gt;&lt;br/&gt;De raadplegende zorgaanbieder moet zijn eigen gebruiker identificeren en authenticeren (NEN7510). De dossierhouder moet de identiteit kunnen controleren (d.m.v. een cryptografisch bewijs als een elekronische handtekening, volgens NEN7512).&lt;br/&gt;&lt;br/&gt;&lt;i&gt;Bij verzenden:&lt;/i&gt;&lt;br/&gt;De verzendende partij moet zijn eigen gebruiker identificeren en authenticeren (NEN7510). De dossierontvanger moet de identiteit kunnen controleren (d.m.v. een cryptografisch bewijs als een elekronische handtekening, volgens NEN7512). &lt;br/&gt;&lt;br/&gt;&lt;b&gt;Invulling Twiin&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Bij raadpleegbaar maken:&lt;/i&gt;&lt;br/&gt;De dossierraadpleger dient zijn eigen gebruikers te authenticeren op eIDAS hoog betrouwbaarheidsniveau.&lt;br/&gt;&lt;br/&gt;De authenticatie van van de gebruikers door het Twiin netwerk heen is nog niet mogelijk.&lt;br/&gt;&lt;br/&gt;Door het nog ontbreken van landelijke afspraken over cryptografisch bewijs hiervan / ondertekening wordt dit door Twiin nog niet vereist. De dossierhouder kan de externe gebruiker daarmee wel identificeren maar niet met zekerheid (authenticeren).&lt;br/&gt;&lt;br/&gt;&lt;i&gt;Bij verzenden:&lt;/i&gt;&lt;br/&gt;De dossierhouder dient zijn eigen gebruikers te authenticeren op eIDAS hoog betrouwbaarheidsniveau.&lt;br/&gt;&lt;br/&gt;De authenticatie van van de gebruikers door het Twiin netwerk heen is nog niet mogelijk.&lt;br/&gt;&lt;br/&gt;Door het nog ontbreken van landelijke afspraken over cryptografisch bewijs hiervan / ondertekening wordt dit door Twiin nog niet vereist. Op welke manier en met welk betrouwbaarheidsniveau deze ondertekening moet plaats vinden hangt ook af van de NEN7512 risicoklasse waar de betreffende gegevensuitwisseling onder valt.&lt;br/&gt;&lt;br/&gt;De dossierontvanger kan de externe gebruiker daarmee wel identificeren maar niet met zekerheid (authenticeren). &lt;br/&gt;&lt;br/&gt;&lt;b&gt;Toelichting&lt;/b&gt;&lt;br/&gt;NEN7512:2022 bepaalt het volgende: &#8220;Authenticatie van gebruikers van uit te wisselen persoonlijke gezondheidsinformatie moet in overeenstemming met eIDAS zijn, waarbij het betrouwbaarheidsniveau &#8216;hoog&#8217; moet worden gebruikt.&#8221; Dit betekent dat de initi&#235;rende gebruiker geauthenticeerd moet worden.&lt;br/&gt;&lt;br/&gt;Ondertekening van het uitgewisselde is ook verplicht (NEN7512:2022): &#8220;Ondertekening bij uitwisseling dient twee doelen. Ten eerste de toegenomen zekerheid omtrent de integriteit van de uitgewisselde gegevens en ten tweede de zekerheid omtrent de afzender. Immers, veel instellingen hebben grote hoeveelheden medewerkers en voorkomen behoort te worden dat een niet daartoe geautoriseerde medewerkere de indruk kan wekken dat een onjuiste uitwisseling eigenlijk een goede uitwisseling is.&#8220; Ondertekening van gegevens is bedoelt voor de ontvanger. De ontvanger is gehouden op basis van NEN7512:2022 om de ondertekening te controleren, dus bij raadplegen de dossierhouder en bij verzenden de dossierontvanger. De risicoklasse van de uitwisseling bepaalt welk betrouwbaarheidsniveau vereist is voor de handtekening.&lt;br/&gt;</div></span>
 		<table>
 		<tr>
 			<td class="Views">Views:</br></td>
-			<td class="ViewsValue"><a href="EA74.htm">TREQ.V003 - Autorisatie</a></td>
+			<td class="ViewsValue"><a href="EA73.htm">TREQ.V002 - Authenticatie</a></td>
 		<tr>
 	</table>
 	<table border="0" class="ObjectDetails">
@@ -105,11 +105,11 @@
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
-			<td class="ObjectDetailsValue">13-9-2024 10:49:34</td>
+			<td class="ObjectDetailsValue">13-9-2024 10:47:03</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
-			<td class="ObjectDetailsValue">1-10-2024 13:19:51</td>
+			<td class="ObjectDetailsValue">1-10-2024 13:19:39</td>
 		</tr>
 		<tr id="proj02" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
@@ -141,7 +141,7 @@
         </tr>
 				<tr>
 					<td width="40%" class="TableRow" valign="top">
-						<a href="EA96.htm">«ArchiMate_Constraint» TREQ.V003 - Autorisatie</a><br />
+						<a href="EA95.htm">«ArchiMate_Constraint» TREQ.V002 - Authenticatie</a><br />
 						Constraint «ArchiMate_Composition» 
 					</td>
 					<td width="30%" class="TableRow" valign="top">
@@ -155,8 +155,8 @@
 				</tr>
 				<tr>
 					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink24" /></button>Details:
-							<div id="detailsDIVLink24" class="DetailsDiv" >
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink23" /></button>Details:
+							<div id="detailsDIVLink23" class="DetailsDiv" >
 							&nbsp;
 							</div>
 						</div>

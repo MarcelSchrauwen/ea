@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Zorgaanbieders</title>
+<title>GtK-beheerders</title>
 <link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> Zorgaanbieders </h1>
+			<h1> GtK-beheerders </h1>
 			<!-- <img class="header_image" src="../../../../images/Twiin.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../../images/Twiin.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../../index.htm">Twiin</a> / <a href="../../EA445.htm">Architectuur release 1.1 beta</a> / <a href="../EA535.htm">Uitwisselconcepten</a> / <a href="EA568.htm">Push</a> / <a href="../../../../index.htm">{ }</a> / <a href="EA570.htm">Zorgaanbieders</a></p>
+			<p><a href="../../../../index.htm">Twiin</a> / <a href="../../EA446.htm">Architectuur release 1.1 beta</a> / <a href="../EA536.htm">Uitwisselconcepten</a> / <a href="EA569.htm">Push</a> / <a href="../../../../index.htm">{ }</a> / <a href="EA570.htm">GtK-beheerders</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -89,12 +89,12 @@
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">Zorgaanbieders<!--  : Public   Boundary --></span>
-	<span class="Note"><div class="ObjectDetailsNotes">In bovenstaande applicatie diagram is globaal beschreven &#39;wat&#39; in de basis de bedoeling is, voor de eerste stap. Verder in dit hoofdstuk worden verschillende technieken beschreven in sequence transactie diagrammen om aan te geven &#39;hoe&#39; er tot een daadwerkelijke uitwisseling van data gekomen kan worden.&lt;br/&gt;&lt;br/&gt;1) Vanuit een XIS applicatie wordt de vraag &quot;geef tijdlijn&quot; aan de GtK-applicatie gesteld&lt;br/&gt;&lt;br/&gt;2) De GtK-applicatie stelt een open vraag aan MITZ waar gegevens van de pati&#235;nt bekend zijn en vervolgens aan het ZORG-AB de technische adressen van deze plaatsen.&lt;br/&gt;&lt;br/&gt;3) De vraag &#39;geef tijdlijn&#39; wordt doorgezet naar de bevraagde GtK-applicatie.&lt;br/&gt;&lt;br/&gt;4) De bevraagde GtK-applicatie controleert de medische autorisatie en de pati&#235;nt toestemming.&lt;br/&gt;&lt;br/&gt;5) Indien akkoord stuurt de GtK-applicatie de vraag door naar het bevraagde XIS&lt;br/&gt;&lt;br/&gt;6) die zijn tijdlijngegevens teruggeeft&lt;br/&gt;&lt;br/&gt;7) De bevraagde GtK-applicatie stuurt deze naar de vragende GtK-applicatie&lt;br/&gt;&lt;br/&gt;8)&#160;&#160;en op zijn beurt weer door naar het vragende XIS&lt;br/&gt;</div></span>
+	<span class="ObjectTitle">GtK-beheerders<!--  : Public   Boundary --></span>
+	<span class="Note"></span>
 		<table>
 		<tr>
 			<td class="Views">Views:</br></td>
-			<td class="ViewsValue"><a href="EA562.htm">Push - Applicatiediagram</a>, <a href="../EA4/EA571.htm">Notified Pull</a>, <a href="../EA2/EA555.htm">Geïndexeerde bevraging</a></td>
+			<td class="ViewsValue"><a href="EA563.htm">Push - Applicatiediagram</a>, <a href="../EA4/EA572.htm">Notified Pull</a>, <a href="../EA2/EA556.htm">Geïndexeerde bevraging</a></td>
 		<tr>
 	</table>
 	<table border="0" class="ObjectDetails">
@@ -105,11 +105,11 @@
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
-			<td class="ObjectDetailsValue">25-10-2022 15:10:14</td>
+			<td class="ObjectDetailsValue">25-10-2022 15:10:22</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
-			<td class="ObjectDetailsValue">9-11-2022 11:17:48</td>
+			<td class="ObjectDetailsValue">2-11-2022 15:05:30</td>
 		</tr>
 		<tr id="proj02" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
@@ -127,7 +127,43 @@
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Type:</td>
 			<td class="ObjectDetailsValue">Boundary</td>
 		</tr>
-	</table> </div>
+	</table>	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+		</ul>
+		<div class="ItemBody" id="FlowToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="../../EA9/EA748.htm">Generieke functies</a><br />
+						<!-- Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">2) Gebruik generieke functies</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow449" /></button>Details:
+							<div id="detailsDIVLinkFlow449" class="DetailsDiv" >
+							Het uitwisselconcept 'Push A' beschrijft een push mechanisme waarin direct de gegevens gestuurd worden van zorgverlener A naar zorgverlener B.
+Er zijn verschillende generieke functies  nodig om een transactie te bewerkstelligen.
+Voor uitwissel concept push  zijn de volgende functies nodig:
+&nbsp;
+<ul>
+	<li>Een gemeenschappelijke Authenticatie dienst (lokaal of centraal)</li>
+	<li>Adressering (door de gemeenschappelijke voorziening ZORG-AB )</li>
+</ul>
+							</div>
+						</div>  -->
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+ </div>
  </td>
 				</tr>
 			</tbody>
