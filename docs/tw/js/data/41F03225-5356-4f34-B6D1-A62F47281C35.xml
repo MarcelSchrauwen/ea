@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.1.6:1", "", "EA | Gevalideerd Twiin Knooppunt (GtK)", "EARoot/EA1/EA6/EA164.htm", "175.png", "15406", "0", "", "Logical diagram0","{7958910F-F850-47c9-B9E0-749D18F56E7A}");
-tocTab[tocTab.length] = new Array("0.1.6:2", "", "Opmerking", "EARoot/EA1/EA6/EA167.htm", "204.png", "E103725", "0", "", "InformationItem0","{CDCBB970-0603-45ec-9391-44BCACA363A5}");
+tocTab[tocTab.length] = new Array("0.1.6:1", "", "EA | Gevalideerd Twiin Knooppunt (GtK)", "EARoot/EA1/EA6/EA130.htm", "175.png", "15406", "0", "", "Logical diagram0","{7958910F-F850-47c9-B9E0-749D18F56E7A}");
+tocTab[tocTab.length] = new Array("0.1.6:2", "", "Opmerking", "EARoot/EA1/EA6/EA133.htm", "204.png", "E103725", "0", "", "InformationItem0","{CDCBB970-0603-45ec-9391-44BCACA363A5}");

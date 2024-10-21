@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.2.3:1", "", "Logische Architectuur", "EARoot/EA2/EA3/EA507.htm", "175.png", "12551", "0", "", "Logical diagram0","{F482501A-E75B-4a83-A982-9DB456D35380}");
-tocTab[tocTab.length] = new Array("0.2.3:2", "", "XIS functies", "EARoot/EA2/EA3/EA509.htm", "175.png", "14225", "0", "", "Logical diagram0","{E2E7400F-2791-4996-9F87-64E9AE8838F6}");
-tocTab[tocTab.length] = new Array("0.2.3.1", "1", "Legenda", "EARoot/EA2/EA3/EA1/EA520.htm", "4.png", "", "", "{B50F119A-CC00-4204-A727-7C104CD13D30}", "Package");
+tocTab[tocTab.length] = new Array("0.2.3:1", "", "Logische Architectuur", "EARoot/EA2/EA3/EA539.htm", "175.png", "12551", "0", "", "Logical diagram0","{F482501A-E75B-4a83-A982-9DB456D35380}");
+tocTab[tocTab.length] = new Array("0.2.3:2", "", "XIS functies", "EARoot/EA2/EA3/EA541.htm", "175.png", "14225", "0", "", "Logical diagram0","{E2E7400F-2791-4996-9F87-64E9AE8838F6}");
+tocTab[tocTab.length] = new Array("0.2.3.1", "1", "Legenda", "EARoot/EA2/EA3/EA1/EA552.htm", "4.png", "", "", "{B50F119A-CC00-4204-A727-7C104CD13D30}", "Package");
