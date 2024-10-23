@@ -1,8 +1,8 @@
-tocTab[tocTab.length] = new Array("0.1.8.1.1.1", "1", "Patiënten en cliënten", "EARoot/EA1/EA8/EA1/EA1/EA1/EA160.htm", "4.png", "", "", "{378E8F23-8EA0-42d0-821D-72D6583585FA}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.1.1.2", "1", "Zorgverleners", "EARoot/EA1/EA8/EA1/EA1/EA2/EA168.htm", "4.png", "", "", "{6E4A4BD1-1B1C-4ac1-BCB3-9C69637ADD3C}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.1.1.3", "1", "Zorgaanbieders", "EARoot/EA1/EA8/EA1/EA1/EA3/EA176.htm", "4.png", "", "", "{301A7487-E6B9-4761-A344-E3950B8071BE}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.1.1.4", "1", "IT-leveranciers", "EARoot/EA1/EA8/EA1/EA1/EA4/EA184.htm", "4.png", "", "", "{D3E79AE6-9A2A-4e13-917E-5E42C574B957}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.1.1.5", "1", "Zorgverzekeraars", "EARoot/EA1/EA8/EA1/EA1/EA5/EA192.htm", "4.png", "", "", "{5F40E2B6-D15F-4952-917F-2B6D25B8577D}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.1.1.6", "1", "Ministerie van VWS", "EARoot/EA1/EA8/EA1/EA1/EA6/EA200.htm", "4.png", "", "", "{AD021242-3ECD-404a-816D-2D896B9256D5}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.1.1.7", "1", "IT-beheeders en ontwikkelaars", "EARoot/EA1/EA8/EA1/EA1/EA7/EA208.htm", "4.png", "", "", "{E1B59628-AD8D-4645-9B29-1450FED92A20}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.1.1.8", "1", "Academische- en onderzoeksinstellingen", "EARoot/EA1/EA8/EA1/EA1/EA8/EA216.htm", "4.png", "", "", "{B248E3B6-2F03-4565-9ED1-9267E779B760}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.1.1.1", "1", "Patiënten en cliënten", "EARoot/EA1/EA8/EA1/EA1/EA1/EA179.htm", "4.png", "", "", "{378E8F23-8EA0-42d0-821D-72D6583585FA}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.1.1.2", "1", "Zorgverleners", "EARoot/EA1/EA8/EA1/EA1/EA2/EA187.htm", "4.png", "", "", "{6E4A4BD1-1B1C-4ac1-BCB3-9C69637ADD3C}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.1.1.3", "1", "Zorgaanbieders", "EARoot/EA1/EA8/EA1/EA1/EA3/EA195.htm", "4.png", "", "", "{301A7487-E6B9-4761-A344-E3950B8071BE}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.1.1.4", "1", "IT-leveranciers", "EARoot/EA1/EA8/EA1/EA1/EA4/EA203.htm", "4.png", "", "", "{D3E79AE6-9A2A-4e13-917E-5E42C574B957}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.1.1.5", "1", "Zorgverzekeraars", "EARoot/EA1/EA8/EA1/EA1/EA5/EA211.htm", "4.png", "", "", "{5F40E2B6-D15F-4952-917F-2B6D25B8577D}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.1.1.6", "1", "Ministerie van VWS", "EARoot/EA1/EA8/EA1/EA1/EA6/EA219.htm", "4.png", "", "", "{AD021242-3ECD-404a-816D-2D896B9256D5}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.1.1.7", "1", "IT-beheeders en ontwikkelaars", "EARoot/EA1/EA8/EA1/EA1/EA7/EA227.htm", "4.png", "", "", "{E1B59628-AD8D-4645-9B29-1450FED92A20}", "Package");
+tocTab[tocTab.length] = new Array("0.1.8.1.1.8", "1", "Academische- en onderzoeksinstellingen", "EARoot/EA1/EA8/EA1/EA1/EA8/EA235.htm", "4.png", "", "", "{B248E3B6-2F03-4565-9ED1-9267E779B760}", "Package");

@@ -1,4 +1,4 @@
 tocTab[tocTab.length] = new Array("0.1.4:1", "", "EA | Afsprakenstelsel", "EARoot/EA1/EA4/EA51.htm", "175.png", "15395", "0", "", "Logical diagram0","{B0C51333-F72B-436e-A566-F77038CC551F}");
 tocTab[tocTab.length] = new Array("0.1.4:2", "", "Wijzigingen (10-10-2024) 2", "EARoot/EA1/EA4/EA54.htm", "204.png", "E103727", "0", "", "InformationItem0","{03800109-E8CB-4d08-9D6E-ADFFE439DE10}");
 tocTab[tocTab.length] = new Array("0.1.4.1", "1", "Twiin afsprakenstelsel", "EARoot/EA1/EA4/EA1/EA59.htm", "4.png", "", "", "{2001EBDB-5CCA-45c8-9655-FC6006D99C8A}", "Package");
-tocTab[tocTab.length] = new Array("0.1.4.2", "1", "Implementatiewijzer zorgtoepassingen", "EARoot/EA1/EA4/EA2/EA105.htm", "4.png", "", "", "{54B048B3-C08F-4ba9-ADE2-3A51711CEC97}", "Package");
+tocTab[tocTab.length] = new Array("0.1.4.2", "1", "Implementatiewijzer zorgtoepassingen", "EARoot/EA1/EA4/EA2/EA121.htm", "4.png", "", "", "{54B048B3-C08F-4ba9-ADE2-3A51711CEC97}", "Package");
