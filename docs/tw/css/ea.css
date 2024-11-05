@@ -202,6 +202,12 @@ UL {
 	font-size: 100%;
 	font-weight: bold;
 }
+
+.Feedback {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
 .foot {
 	background-color: #FFFFFF;
 	border-bottom: #CECF9C 1px solid;
@@ -365,15 +371,16 @@ UL {
 	margin: 0px 0px 0px 0px;	
 }
 .ObjectDetailsNotes {
-	background-color: #FAFAFA;
-	border: 1px solid #EEEEEE;
+	background-color: #FFF;
+	border: 1px solid #AAA;
 	color: #1A1A1A;
 	height: expression(this.scrollHeight > 200 ? "200px" : "auto");
 	/* max-height: 200px; */
 	overflow: auto;
-	margin: 5px;
-	margin-top:20px;
-	padding: 5px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	box-shadow: 2px 2px lightgray;
 }
 .ObjectDetailsTopic {
 	color: #666699;

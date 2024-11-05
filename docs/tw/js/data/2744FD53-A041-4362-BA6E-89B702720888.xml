@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.8.4.1", "1", "Twiin afspraken", "EARoot/EA1/EA8/EA4/EA1/EA344.htm", "4.png", "", "", "{55D2FA6F-0DD8-496a-B450-CCD46C47CCD6}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.4.2", "", "Implementatiewijzer zorgtoepassingen", "EARoot/EA1/EA8/EA4/EA2/EA438.htm", "4.png", "", "", "{669AC528-2C0D-4071-AD7E-9BD12251DE25}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.4.3", "1", "Functionele use cases", "EARoot/EA1/EA8/EA4/EA3/EA439.htm", "4.png", "", "", "{C9AFF6E9-EBF0-4015-BFD1-81C5B0E98BD8}", "Package");

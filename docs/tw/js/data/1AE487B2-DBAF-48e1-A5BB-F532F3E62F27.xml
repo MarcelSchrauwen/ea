@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.1.8.1", "1", "Organisatie", "EARoot/EA1/EA8/EA1/EA164.htm", "4.png", "", "", "{2FDCC8D9-B2E0-452a-A39C-97E390DD3FEA}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.2", "1", "Afsprakenstelsel", "EARoot/EA1/EA8/EA2/EA271.htm", "4.png", "", "", "{EFB7C2D4-289B-469c-A4E8-2290A71CCAC1}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.3", "1", "Implementatiewijzer zorgtoepassingen", "EARoot/EA1/EA8/EA3/EA462.htm", "4.png", "", "", "{110D3F2B-0772-47de-A633-AFDE95FD0DEF}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.4", "1", "Functionele use cases", "EARoot/EA1/EA8/EA4/EA469.htm", "4.png", "", "", "{C9AFF6E9-EBF0-4015-BFD1-81C5B0E98BD8}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.5", "1", "Landelijke programma&#39;s", "EARoot/EA1/EA8/EA5/EA475.htm", "4.png", "", "", "{C6935E4C-C5AF-4ee9-86B5-569E223E9E86}", "Package");
-tocTab[tocTab.length] = new Array("0.1.8.6", "", "Wet- & regelgeving", "EARoot/EA1/EA8/EA6/EA499.htm", "4.png", "", "", "{52C68A63-F4E9-4ad3-AA55-FE8C2CB9AB94}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.1", "", "Strategy", "EARoot/EA1/EA6/EA1/EA245.htm", "4.png", "", "", "{F1A53A2C-B3C6-4d4a-AC94-8782556D2FE9}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.2", "1", "Business", "EARoot/EA1/EA6/EA2/EA246.htm", "4.png", "", "", "{56FC6A58-2406-4a99-8372-87AF43150497}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.3", "", "Application", "EARoot/EA1/EA6/EA3/EA345.htm", "4.png", "", "", "{55366A13-F1E4-46d9-854D-CAF9310CD1E3}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.4", "", "Technology & Physical", "EARoot/EA1/EA6/EA4/EA346.htm", "4.png", "", "", "{BE37C741-E0FA-4d5d-8BC4-84DE6219CA72}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.5", "1", "Motivation ", "EARoot/EA1/EA6/EA5/EA347.htm", "4.png", "", "", "{F072FBF9-2994-4012-A775-8E9343081ADA}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.6", "1", "Implementation & Migration", "EARoot/EA1/EA6/EA6/EA397.htm", "4.png", "", "", "{797409D2-4C96-4204-8006-167CB82E0FE9}", "Package");

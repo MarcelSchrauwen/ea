@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>XIS brondossier beschikbaar stellen</title>
+<title>Elementen::GtK-app 2</title>
 <link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
 <script language="JavaScript" src="../../../js/displayToc.js" type="text/javascript"></script>
 <script>
@@ -64,12 +64,12 @@
 <div class="section group" >
 
 		<div class="col span_2_of_2 header_frame">
-			<h1> XIS brondossier beschikbaar stellen </h1>
+			<h1> Elementen::GtK-app 2 </h1>
 			<!-- <img class="header_image" src="../../../images/Twiin.png" align="right" alt="Header Image" />-->
 			<img class="header_image" src="../../../images/Twiin.png" align="right" alt="Header Image" />
 		</div>
 		<div class="col span_2_of_2 breadcrumb_frame">
-			<p><a href="../../../index.htm">Twiin</a> / <a href="../EA519.htm">Architectuur release 1.1 beta</a> / <a href="EA813.htm">Elementen</a> / <a href="EA825.htm">XIS brondossier beschikbaar stellen</a></p>
+			<p><a href="../../../index.htm">Twiin</a> / <a href="../EA522.htm">Architectuur release 1.1 beta</a> / <a href="EA816.htm">Elementen</a> / <a href="EA825.htm">GtK-app 2</a></p>
 		</div>
 			
 		<table class="contentmaintable">
@@ -84,17 +84,18 @@
 					<td class="indexcell">
 						<div class="projectBrowserTitle">Architectuur: </div>
 						<ul>
-<a href="EA813.htm">Elementen</a></ul>
+<a href="EA816.htm">Elementen</a></ul>
 
 					</td>
 					<td class="contentcell"><div class="pageHeader"></div>
 <div class="PageBody">
-	<span class="ObjectTitle">XIS brondossier beschikbaar stellen<!--  : Public  &lt;&lt;ArchiMate_ApplicationFunction&gt;&gt; ApplicationFunction --></span>
+	<span class="ObjectTitle">GtK-app 2<!--  : Public  &lt;&lt;ArchiMate_ApplicationComponent&gt;&gt; ApplicationComponent --></span>
+	<div class="Feedback"><a HREF="mailto:marcel.schrauwen@vzvz.nl?SUBJECT=Twiin%20EA%20Feedback:%20GtK-app 2">Feedback</a></div>
 	<span class="Note"></span>
 		<table>
 		<tr>
 			<td class="Views">Views:</br></td>
-			<td class="ViewsValue"><a href="../EA3/EA576.htm">XIS functies</a></td>
+			<td class="ViewsValue"><a href="../EA6/EA3/EA639.htm">Push - Applicatiediagram</a>, <a href="../EA6/EA4/EA648.htm">Notified Pull</a>, <a href="../EA6/EA2/EA632.htm">Geïndexeerde bevraging</a>, <a href="../EA6/EA4/EA652.htm">Notified Pull (IHE XDS)</a>, <a href="../EA6/EA2/EA634.htm">Geïndexeerde bevraging - IHE XDS</a>, <a href="../EA6/EA4/EA650.htm">Notified Pull (FHIR)</a>, <a href="../EA6/EA3/EA641.htm">Push - Sequence diagram - IHE XDR</a>, <a href="../EA6/EA2/EA636.htm">Geïndexeerde bevraging - FHIR</a>, <a href="../EA6/EA3/EA643.htm">Push - Sequence diagram - FHIR</a>, <a href="../EA6/EA1/EA617.htm">Gerichte bevraging</a>, <a href="../EA6/EA1/EA619.htm">Gerichte bevraging - FHIR</a></td>
 		<tr>
 	</table>
 	<table border="0" class="ObjectDetails">
@@ -105,15 +106,15 @@
 		</tr>
 		<tr id="proj00" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt:</td>
-			<td class="ObjectDetailsValue">25-10-2022 15:22:15</td>
+			<td class="ObjectDetailsValue">25-10-2022 15:16:05</td>
 		</tr>
 		<tr id="proj01" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gewijzigd:</td>
-			<td class="ObjectDetailsValue">25-10-2022 16:29:33</td>
+			<td class="ObjectDetailsValue">28-10-2022 12:30:42</td>
 		</tr>
 		<tr id="proj02" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Gemaakt door:</td>
-			<td class="ObjectDetailsValue">Wouter Tesink</td>
+			<td class="ObjectDetailsValue">Ben van der Stigchel</td>
 		</tr>
 		<tr id="proj03" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Versie:</td>
@@ -125,46 +126,807 @@
 		</tr>
 		<tr id="proj05" style="display: none;">
 			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Type:</td>
-			<td class="ObjectDetailsValue">ApplicationFunction</td>
+			<td class="ObjectDetailsValue">ApplicationComponent</td>
 		</tr>
 	</table>	<div class="TableGroup" id="TableGroup">
 		<ul class="ItemTitle">
-			<li onClick="toggleItem('AssociationsFrom');" id="AssociationsFromTitle">Associations From</li>
+			<li onClick="toggleItem('FlowTo');" id="FlowToTitle">Flow To</li>
+			<li onClick="toggleItem('FlowFrom');" id="FlowFromTitle">Flow From</li>
+			<li onClick="toggleItem('MessagesTo');" id="MessagesToTitle">Messages To</li>
+			<li onClick="toggleItem('MessagesFrom');" id="MessagesFromTitle">Messages From</li>
 			<li onClick="toggleItem('CustomProperties');" id="CustomPropertiesTitle">Advanced</li>
 		</ul>
-<div class="ItemBody" id="AssociationsFromTable">
-    <table class="Table ea_table">
-        <tr>
-            <td width="100%" class="TableHeading">Element</td>
-            <!-- <td width="30%" class="TableHeading">Source Role</td>
-            <td width="30%" class="TableHeading">Target Role</td> -->
-        </tr>
+		<div class="ItemBody" id="FlowToTable">
+			<table class="Table ea_table">
 				<tr>
-					<td width="40%" class="TableRow" valign="top">
-						<a href="../EA1/EA1/EA567.htm">«ArchiMate_ApplicationComponent» XIS</a><br />
-						ApplicationComponent «ArchiMate_Assignment» 
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA849.htm">GTK-app</a><br />
+						<!-- Component «ArchiMate_Triggering» 
 					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;
+					<td width="50%" class="TableRow" valign="top">Vraag data</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow601" /></button>Details:
+							<div id="detailsDIVLinkFlow601" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
 					</td>
-					<td width="30%" class="TableRow" valign="top">
-						<strong>Name:</strong> &nbsp;<br />
-						&nbsp;	
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA824.htm">Generieke functies</a><br />
+						<!-- Activity «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">Gebruik generieke functies</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow602" /></button>Details:
+							<div id="detailsDIVLinkFlow602" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA855.htm">XIS ZA1</a><br />
+						<!-- Component «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">3) ontvang data</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow603" /></button>Details:
+							<div id="detailsDIVLinkFlow603" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA832.htm">XIS ZA2</a><br />
+						<!-- Component «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">8) geef tijdlijn</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow604" /></button>Details:
+							<div id="detailsDIVLinkFlow604" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA832.htm">XIS ZA2</a><br />
+						<!-- Component «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">3) ontvang data</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow605" /></button>Details:
+							<div id="detailsDIVLinkFlow605" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA849.htm">GTK-app</a><br />
+						<!-- Component «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">3) vraag "tijdlijn"</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow606" /></button>Details:
+							<div id="detailsDIVLinkFlow606" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA832.htm">XIS ZA2</a><br />
+						<!-- Component «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">Geef data</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow607" /></button>Details:
+							<div id="detailsDIVLinkFlow607" class="DetailsDiv" >
+							In bovenstaande applicatie diagram  is globaal beschreven 'wat' in de basis de bedoeling is. Het is een vereenvoudigde weergave van de conceptuele Twiin oplossingsrichting A.  Verder in dit hoofdstuk worden verschillende technieken beschreven in sequence transactie diagrammen om aan te geven 'hoe' er tot een daadwerkelijke uitwisseling van data gekomen kan worden.
+
+Vanuit een XIS wordt via een GtK-applicatie een vraag gesteld (1). De GtK-applicatie zal de vraag afhandelen en hiervoor gebruik maken van een aantal gemeenschappelijke voorzieningen (2) om de vraag op de juiste manier te kunnen stellen (4). De bevraagde GtK-applicatie zal op zijn beurt gebruik maken van een aantal gemeenschappelijke voorzieningen (3) om de vraag op de juiste manier af te kunnen handelen (5 en 6).
+&nbsp;
+<ol>
+	<li>Vanuit een raadplegend XIS wordt aan de raadplegende GtK-applicatie waarop hij aangesloten is een vraag gesteld.</li>
+	<li>De raadplegende GtK-applicatie gebruikt de gemeenschappelijke voorzieningen om het vervolg te bepalen.</li>
+	<li>De raadplegende GtK-applicatie stuurt de vraag door naar de bron GTK-applicatie.</li>
+	<li>De bron GtK-applicatie controleert de medische autorisatie en de pati&#235;nttoestemming bij de gemeenschappelijke voorzieningen.</li>
+	<li>De bron GtK-applicatie stuurt de vraag door aan het bron XIS. </li>
+	<li>Het bron XIS geeft de gevraagde data terug aan de bron GtK-applicatie </li>
+	<li>De bron GtK-applicatie stuurt het antwoord door aan de raadplegende GtK-applicatie. </li>
+	<li>De raadplegende GtK-applicatie geeft het antwoord terug aan het raadplegende XIS. </li>
+</ol>
+							</div>
+						</div>  -->
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA832.htm">XIS ZA2</a><br />
+						<!-- Component «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">Stuur notificatie</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow608" /></button>Details:
+							<div id="detailsDIVLinkFlow608" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="FlowFromTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Name</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA849.htm">GTK-app</a><br />
+						<!-- Component «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow609" /></button>Details:
+							<div id="detailsDIVLinkFlow609" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA849.htm">GTK-app</a><br />
+						<!-- Component «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">Stuur notificatie</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow610" /></button>Details:
+							<div id="detailsDIVLinkFlow610" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA849.htm">GTK-app</a><br />
+						<!-- Component «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">Geef data</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow611" /></button>Details:
+							<div id="detailsDIVLinkFlow611" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA832.htm">XIS ZA2</a><br />
+						<!-- Component «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">Vraag data</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow612" /></button>Details:
+							<div id="detailsDIVLinkFlow612" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA832.htm">XIS ZA2</a><br />
+						<!-- Component «ArchiMate_Triggering» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">1) Vraag "tijdlijn"</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow613" /></button>Details:
+							<div id="detailsDIVLinkFlow613" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>				<tr>
+					<td width="50%" class="TableRow" valign="top">
+						<a href="EA849.htm">GTK-app</a><br />
+						<!-- Component «ArchiMate_Flow» 
+					</td>
+					<td width="50%" class="TableRow" valign="top">7) geef "tijdlijn"</td>					
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLinkFlow614" /></button>Details:
+							<div id="detailsDIVLinkFlow614" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>  -->
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesToTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA826.htm">«ArchiMate_ApplicationComponent» Lokalisatie</a></td>
+					<td width="50%" class="TableRow" valign="top">IHE:XCPD ITI-56 / NL:OTV OTV-TR-0020</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage615" /></button>Details:
+							<div id="detailsDIVMessage615" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
 					</td>
 				</tr>
 				<tr>
-					<td class="TableRowBottomDashed"  colspan="3">
-						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageLink635" /></button>Details:
-							<div id="detailsDIVLink635" class="DetailsDiv" >
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage616" /></button>Details:
+							<div id="detailsDIVMessage616" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">IHE:XCA ITI-38 (incl ITI-40)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage617" /></button>Details:
+							<div id="detailsDIVMessage617" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA832.htm">«ArchiMate_ApplicationComponent» XIS ZA2</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage618" /></button>Details:
+							<div id="detailsDIVMessage618" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA832.htm">«ArchiMate_ApplicationComponent» XIS ZA2</a></td>
+					<td width="50%" class="TableRow" valign="top">RESTful API request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage619" /></button>Details:
+							<div id="detailsDIVMessage619" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA825.htm">«ArchiMate_ApplicationComponent» GtK-app 2</a></td>
+					<td width="50%" class="TableRow" valign="top">11) samenvoegen gegevens</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage620" /></button>Details:
+							<div id="detailsDIVMessage620" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">7) RESTful API request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage621" /></button>Details:
+							<div id="detailsDIVMessage621" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA826.htm">«ArchiMate_ApplicationComponent» Lokalisatie</a></td>
+					<td width="50%" class="TableRow" valign="top">5) IHE:XCPD ITI-56 / NL:OTV OTV-TR-0020</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage622" /></button>Details:
+							<div id="detailsDIVMessage622" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA832.htm">«ArchiMate_ApplicationComponent» XIS ZA2</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage623" /></button>Details:
+							<div id="detailsDIVMessage623" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA839.htm">«ArchiMate_ApplicationComponent» Zorg-AB</a></td>
+					<td width="50%" class="TableRow" valign="top">6) RESTful API request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage624" /></button>Details:
+							<div id="detailsDIVMessage624" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage625" /></button>Details:
+							<div id="detailsDIVMessage625" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage626" /></button>Details:
+							<div id="detailsDIVMessage626" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage627" /></button>Details:
+							<div id="detailsDIVMessage627" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA839.htm">«ArchiMate_ApplicationComponent» Zorg-AB</a></td>
+					<td width="50%" class="TableRow" valign="top">HTTP GET /<FHIR-resource> request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage628" /></button>Details:
+							<div id="detailsDIVMessage628" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA839.htm">«ArchiMate_ApplicationComponent» Zorg-AB</a></td>
+					<td width="50%" class="TableRow" valign="top">6) RESTful API request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage629" /></button>Details:
+							<div id="detailsDIVMessage629" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA825.htm">«ArchiMate_ApplicationComponent» GtK-app 2</a></td>
+					<td width="50%" class="TableRow" valign="top">samenvoegen gegevens</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage630" /></button>Details:
+							<div id="detailsDIVMessage630" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA832.htm">«ArchiMate_ApplicationComponent» XIS ZA2</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage631" /></button>Details:
+							<div id="detailsDIVMessage631" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">7) RESTful API request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage632" /></button>Details:
+							<div id="detailsDIVMessage632" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA832.htm">«ArchiMate_ApplicationComponent» XIS ZA2</a></td>
+					<td width="50%" class="TableRow" valign="top">IHE:XDR ITI-41 (inc ITI-40)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage633" /></button>Details:
+							<div id="detailsDIVMessage633" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
 							&nbsp;
 							</div>
 						</div>
 					</td>
 				</tr>
 
-    </table>
-</div>
+			</table>
+		</div>
+		<div class="ItemBody" id="MessagesFromTable">
+			<table class="Table ea_table">
+				<tr>
+					<td width="50%" class="TableHeading">Element</td>
+					<td width="50%" class="TableHeading">Message</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA826.htm">«ArchiMate_ApplicationComponent» Lokalisatie</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage634" /></button>Details:
+							<div id="detailsDIVMessage634" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage635" /></button>Details:
+							<div id="detailsDIVMessage635" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA839.htm">«ArchiMate_ApplicationComponent» Zorg-AB</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage636" /></button>Details:
+							<div id="detailsDIVMessage636" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">IHE: XDR ITI-41 (inc ITI-40) request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage637" /></button>Details:
+							<div id="detailsDIVMessage637" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA839.htm">«ArchiMate_ApplicationComponent» Zorg-AB</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage638" /></button>Details:
+							<div id="detailsDIVMessage638" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA832.htm">«ArchiMate_ApplicationComponent» XIS ZA2</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage639" /></button>Details:
+							<div id="detailsDIVMessage639" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA825.htm">«ArchiMate_ApplicationComponent» GtK-app 2</a></td>
+					<td width="50%" class="TableRow" valign="top">11) samenvoegen gegevens</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage640" /></button>Details:
+							<div id="detailsDIVMessage640" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">RESTful API requestt</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage641" /></button>Details:
+							<div id="detailsDIVMessage641" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA832.htm">«ArchiMate_ApplicationComponent» XIS ZA2</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage642" /></button>Details:
+							<div id="detailsDIVMessage642" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA832.htm">«ArchiMate_ApplicationComponent» XIS ZA2</a></td>
+					<td width="50%" class="TableRow" valign="top">IHE:XDS ITI-18</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage643" /></button>Details:
+							<div id="detailsDIVMessage643" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA826.htm">«ArchiMate_ApplicationComponent» Lokalisatie</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage644" /></button>Details:
+							<div id="detailsDIVMessage644" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA832.htm">«ArchiMate_ApplicationComponent» XIS ZA2</a></td>
+					<td width="50%" class="TableRow" valign="top">4) RESTful API request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage645" /></button>Details:
+							<div id="detailsDIVMessage645" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage646" /></button>Details:
+							<div id="detailsDIVMessage646" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">IHE:XDR ITI-41 (inc ITI-40)</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage647" /></button>Details:
+							<div id="detailsDIVMessage647" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA839.htm">«ArchiMate_ApplicationComponent» Zorg-AB</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage648" /></button>Details:
+							<div id="detailsDIVMessage648" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">PUT /Task request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage649" /></button>Details:
+							<div id="detailsDIVMessage649" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA849.htm">«ArchiMate_ApplicationComponent» GTK-app</a></td>
+					<td width="50%" class="TableRow" valign="top">&nbsp;</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage650" /></button>Details:
+							<div id="detailsDIVMessage650" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA825.htm">«ArchiMate_ApplicationComponent» GtK-app 2</a></td>
+					<td width="50%" class="TableRow" valign="top">samenvoegen gegevens</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage651" /></button>Details:
+							<div id="detailsDIVMessage651" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="50%" class="TableRow" valign="top"><a href="EA832.htm">«ArchiMate_ApplicationComponent» XIS ZA2</a></td>
+					<td width="50%" class="TableRow" valign="top">4) RESTful API request</td>
+				</tr>
+		   		<tr>
+					<td class="TableRowBottomDashed"  colspan="2">
+						<div class="DetailsDivParent"><button onclick="switchProjectProperties()"><img src="../../../images/minus03.gif" align="absmiddle" id="DetailsImageMessage652" /></button>Details:
+							<div id="detailsDIVMessage652" class="DetailsDiv" >
+							<strong>Type:</strong> Sequence Synchronous Call<br />
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
 		<div class="ItemBody" id="CustomPropertiesTable">
 			<table class="Table ea_table">
 				<tr>
@@ -182,8 +944,8 @@
 			</tr>
 
 			<tr>
-				<td width="30%" class="TableRow">isReadOnly:</td>
-				<td width="70%" class="TableRow">false</td>
+				<td width="30%" class="TableRow">isIndirectlyInstantiated:</td>
+				<td width="70%" class="TableRow">true</td>
 			</tr>
 
 			<tr>

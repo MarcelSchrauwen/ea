@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.2.6.1", "1", "Gerichte bevraging", "EARoot/EA2/EA6/EA1/EA638.htm", "4.png", "", "", "{AE7E19AE-04D0-41f5-B7F5-CF719B4D2759}", "Package");
-tocTab[tocTab.length] = new Array("0.2.6.2", "1", "Geïndexeerde bevraging", "EARoot/EA2/EA6/EA2/EA655.htm", "4.png", "", "", "{BE051F34-8851-48d9-B939-75B5AD8930B5}", "Package");
-tocTab[tocTab.length] = new Array("0.2.6.3", "1", "Push", "EARoot/EA2/EA6/EA3/EA662.htm", "4.png", "", "", "{18BE88A1-7F6D-4674-90F1-3F96CE610CC9}", "Package");
-tocTab[tocTab.length] = new Array("0.2.6.4", "1", "Notified Pull", "EARoot/EA2/EA6/EA4/EA671.htm", "4.png", "", "", "{DA86EE25-99BD-4c24-A1AA-ED567695C298}", "Package");
+tocTab[tocTab.length] = new Array("0.2.6.1", "1", "Gerichte bevraging", "EARoot/EA2/EA6/EA1/EA621.htm", "4.png", "", "", "{AE7E19AE-04D0-41f5-B7F5-CF719B4D2759}", "Package");
+tocTab[tocTab.length] = new Array("0.2.6.2", "1", "Geïndexeerde bevraging", "EARoot/EA2/EA6/EA2/EA638.htm", "4.png", "", "", "{BE051F34-8851-48d9-B939-75B5AD8930B5}", "Package");
+tocTab[tocTab.length] = new Array("0.2.6.3", "1", "Push", "EARoot/EA2/EA6/EA3/EA645.htm", "4.png", "", "", "{18BE88A1-7F6D-4674-90F1-3F96CE610CC9}", "Package");
+tocTab[tocTab.length] = new Array("0.2.6.4", "1", "Notified Pull", "EARoot/EA2/EA6/EA4/EA654.htm", "4.png", "", "", "{DA86EE25-99BD-4c24-A1AA-ED567695C298}", "Package");
