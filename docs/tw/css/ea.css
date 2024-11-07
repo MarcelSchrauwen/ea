@@ -204,9 +204,24 @@ UL {
 }
 
 .Feedback {
-	margin-top: 10px;
-	margin-bottom: 5px;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 10px;
+    color: #101110;
+    background-color: #D3D3D3;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+	margin-left: 5px;
 }
+
+.Feedback:hover {
+	background-color: #F5F5F5;
+	color: #101110;
+}
+
 
 .foot {
 	background-color: #FFFFFF;
@@ -319,7 +334,7 @@ UL {
 	display: none;
 	margin-top: 17px;
 	border: 1px solid #999999;
-	height: 693px;
+	height: auto;
 	overflow: scroll;
 }
 .ItemData {
@@ -475,7 +490,7 @@ UL {
 }
 .TableGroup {
 	margin-right: 0px;
-	background: #EEEEEE;
+	background: #FFF;
 	border: 1px solid #999999;
 	padding: 3px;
 	position: relative;

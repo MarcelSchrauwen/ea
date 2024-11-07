@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.2.6.4:1", "", "Notified Pull", "EARoot/EA2/EA6/EA4/EA648.htm", "175.png", "14229", "0", "", "Logical diagram0","{6D513A45-E4DA-42ad-9743-083DE8208130}");
-tocTab[tocTab.length] = new Array("0.2.6.4:2", "", "Notified Pull (FHIR)", "EARoot/EA2/EA6/EA4/EA650.htm", "185.png", "14235", "0", "", "Sequence diagram0","{990FE483-CF06-4478-B88B-56682C6925C9}");
-tocTab[tocTab.length] = new Array("0.2.6.4:3", "", "Notified Pull (IHE XDS)", "EARoot/EA2/EA6/EA4/EA652.htm", "185.png", "14233", "0", "", "Sequence diagram0","{17E7D39E-2D35-4f4e-8992-81A3CD344C6D}");
+tocTab[tocTab.length] = new Array("0.2.6.4:1", "", "Notified Pull", "EARoot/EA2/EA6/EA4/EA647.htm", "175.png", "14229", "0", "", "Logical diagram0","{6D513A45-E4DA-42ad-9743-083DE8208130}");
+tocTab[tocTab.length] = new Array("0.2.6.4:2", "", "Notified Pull (FHIR)", "EARoot/EA2/EA6/EA4/EA649.htm", "185.png", "14235", "0", "", "Sequence diagram0","{990FE483-CF06-4478-B88B-56682C6925C9}");
+tocTab[tocTab.length] = new Array("0.2.6.4:3", "", "Notified Pull (IHE XDS)", "EARoot/EA2/EA6/EA4/EA651.htm", "185.png", "14233", "0", "", "Sequence diagram0","{17E7D39E-2D35-4f4e-8992-81A3CD344C6D}");
