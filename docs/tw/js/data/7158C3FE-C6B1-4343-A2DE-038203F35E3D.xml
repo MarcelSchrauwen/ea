@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.2.5.1", "", "Logging en monitoring", "EARoot/EA2/EA5/EA1/EA579.htm", "4.png", "", "", "{467C3DEB-DA39-4e6b-84C9-F9A5CA02DB6E}", "Package");
-tocTab[tocTab.length] = new Array("0.2.5.2", "", "Lokalisatie en toestemming", "EARoot/EA2/EA5/EA2/EA580.htm", "4.png", "", "", "{99FF049F-E678-4fe6-904D-6AED1C4A66A5}", "Package");
-tocTab[tocTab.length] = new Array("0.2.5.3", "", "Identificatie", "EARoot/EA2/EA5/EA3/EA581.htm", "4.png", "", "", "{84F57CE9-3EE2-48af-8BC4-F15613D3CA66}", "Package");
-tocTab[tocTab.length] = new Array("0.2.5.4", "", "Authenticatie", "EARoot/EA2/EA5/EA4/EA582.htm", "4.png", "", "", "{9B42E57B-E4F6-406e-9469-810710991ED8}", "Package");
-tocTab[tocTab.length] = new Array("0.2.5.5", "", "Adressering", "EARoot/EA2/EA5/EA5/EA583.htm", "4.png", "", "", "{71C2B4E4-9C42-42f1-960A-3FD9F6C88890}", "Package");
-tocTab[tocTab.length] = new Array("0.2.5.6", "", "Autorisatie", "EARoot/EA2/EA5/EA6/EA584.htm", "4.png", "", "", "{38FD1864-18B0-444a-8453-260812AD8A62}", "Package");
+tocTab[tocTab.length] = new Array("0.2.5.1", "", "Logging en monitoring", "EARoot/EA2/EA5/EA1/EA605.htm", "4.png", "", "", "{467C3DEB-DA39-4e6b-84C9-F9A5CA02DB6E}", "Package");
+tocTab[tocTab.length] = new Array("0.2.5.2", "", "Lokalisatie en toestemming", "EARoot/EA2/EA5/EA2/EA606.htm", "4.png", "", "", "{99FF049F-E678-4fe6-904D-6AED1C4A66A5}", "Package");
+tocTab[tocTab.length] = new Array("0.2.5.3", "", "Identificatie", "EARoot/EA2/EA5/EA3/EA607.htm", "4.png", "", "", "{84F57CE9-3EE2-48af-8BC4-F15613D3CA66}", "Package");
+tocTab[tocTab.length] = new Array("0.2.5.4", "", "Authenticatie", "EARoot/EA2/EA5/EA4/EA608.htm", "4.png", "", "", "{9B42E57B-E4F6-406e-9469-810710991ED8}", "Package");
+tocTab[tocTab.length] = new Array("0.2.5.5", "", "Adressering", "EARoot/EA2/EA5/EA5/EA609.htm", "4.png", "", "", "{71C2B4E4-9C42-42f1-960A-3FD9F6C88890}", "Package");
+tocTab[tocTab.length] = new Array("0.2.5.6", "", "Autorisatie", "EARoot/EA2/EA5/EA6/EA610.htm", "4.png", "", "", "{38FD1864-18B0-444a-8453-260812AD8A62}", "Package");

@@ -1,7 +1,7 @@
-tocTab[tocTab.length] = new Array("0.1.7.2:1", "", "EA Scope", "EARoot/EA1/EA7/EA2/EA403.htm", "5.png", "E102524", "0", "", "Class0","{FDD08D1E-71B4-479f-8CFC-3C8FE2056F37}");
-tocTab[tocTab.length] = new Array("0.1.7.2:2", "", "EA Doelstelling", "EARoot/EA1/EA7/EA2/EA404.htm", "5.png", "E102525", "0", "", "Class0","{9A975A9D-4CC1-47f9-9A97-6DC6C2803F70}");
-tocTab[tocTab.length] = new Array("0.1.7.2:3", "", "EA Governance", "EARoot/EA1/EA7/EA2/EA405.htm", "5.png", "E102526", "0", "", "Class0","{2BAB985E-6ED0-411f-8C53-A3ABAA78FD04}");
-tocTab[tocTab.length] = new Array("0.1.7.2:4", "", "EA Beheer", "EARoot/EA1/EA7/EA2/EA406.htm", "5.png", "E102527", "0", "", "Class0","{5EE99B82-D0C9-4efd-A1A8-966D95F2840D}");
-tocTab[tocTab.length] = new Array("0.1.7.2:5", "", "EA Gebruik", "EARoot/EA1/EA7/EA2/EA407.htm", "5.png", "E102528", "0", "", "Class0","{626A39EC-ECFC-40bc-B93A-5BD96414A47C}");
-tocTab[tocTab.length] = new Array("0.1.7.2:6", "", "EA Volwassenheidsniveau", "EARoot/EA1/EA7/EA2/EA408.htm", "5.png", "E102529", "0", "", "Class0","{4E160801-BA47-4d22-88F5-0ED7AA4346A5}");
-tocTab[tocTab.length] = new Array("0.1.7.2:7", "", "EA Tools", "EARoot/EA1/EA7/EA2/EA409.htm", "5.png", "E102530", "0", "", "Class0","{CBBEAEB7-20A1-4a83-81E6-7D521DBA3B20}");
+tocTab[tocTab.length] = new Array("0.1.7.2:1", "", "EA Scope", "EARoot/EA1/EA7/EA2/EA429.htm", "5.png", "E102524", "0", "", "Class0","{FDD08D1E-71B4-479f-8CFC-3C8FE2056F37}");
+tocTab[tocTab.length] = new Array("0.1.7.2:2", "", "EA Doelstelling", "EARoot/EA1/EA7/EA2/EA430.htm", "5.png", "E102525", "0", "", "Class0","{9A975A9D-4CC1-47f9-9A97-6DC6C2803F70}");
+tocTab[tocTab.length] = new Array("0.1.7.2:3", "", "EA Governance", "EARoot/EA1/EA7/EA2/EA431.htm", "5.png", "E102526", "0", "", "Class0","{2BAB985E-6ED0-411f-8C53-A3ABAA78FD04}");
+tocTab[tocTab.length] = new Array("0.1.7.2:4", "", "EA Beheer", "EARoot/EA1/EA7/EA2/EA432.htm", "5.png", "E102527", "0", "", "Class0","{5EE99B82-D0C9-4efd-A1A8-966D95F2840D}");
+tocTab[tocTab.length] = new Array("0.1.7.2:5", "", "EA Gebruik", "EARoot/EA1/EA7/EA2/EA433.htm", "5.png", "E102528", "0", "", "Class0","{626A39EC-ECFC-40bc-B93A-5BD96414A47C}");
+tocTab[tocTab.length] = new Array("0.1.7.2:6", "", "EA Volwassenheidsniveau", "EARoot/EA1/EA7/EA2/EA434.htm", "5.png", "E102529", "0", "", "Class0","{4E160801-BA47-4d22-88F5-0ED7AA4346A5}");
+tocTab[tocTab.length] = new Array("0.1.7.2:7", "", "EA Tools", "EARoot/EA1/EA7/EA2/EA435.htm", "5.png", "E102530", "0", "", "Class0","{CBBEAEB7-20A1-4a83-81E6-7D521DBA3B20}");
