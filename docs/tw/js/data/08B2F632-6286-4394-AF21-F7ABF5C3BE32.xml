@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.2.7.1.1", "", "PvE applicatiecomponenten", "EARoot/EA2/EA7/EA1/EA1/EA677.htm", "4.png", "", "", "{C9635AAF-D25B-4ff4-BF9F-E56D579AD96A}", "Package");
-tocTab[tocTab.length] = new Array("0.2.7.1.2", "", "PvE Organisatie GtK", "EARoot/EA2/EA7/EA1/EA2/EA678.htm", "4.png", "", "", "{9B28A4F9-72B0-4d5c-8868-1C3AE0479C52}", "Package");
+tocTab[tocTab.length] = new Array("0.2.7.1.1", "", "PvE applicatiecomponenten", "EARoot/EA2/EA7/EA1/EA1/EA651.htm", "4.png", "", "", "{C9635AAF-D25B-4ff4-BF9F-E56D579AD96A}", "Package");
+tocTab[tocTab.length] = new Array("0.2.7.1.2", "", "PvE Organisatie GtK", "EARoot/EA2/EA7/EA1/EA2/EA652.htm", "4.png", "", "", "{9B28A4F9-72B0-4d5c-8868-1C3AE0479C52}", "Package");

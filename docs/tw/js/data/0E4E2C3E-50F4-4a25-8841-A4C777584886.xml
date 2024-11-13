@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.6.2.3.4.1", "1", "Communicatiepatronen", "EARoot/EA1/EA6/EA2/EA3/EA4/EA1/EA292.htm", "4.png", "", "", "{6BA3E7C3-864E-4bbc-92CA-B2044C0C2292}", "Package");
-tocTab[tocTab.length] = new Array("0.1.6.2.3.4.2", "1", "Technical agreements - TTA", "EARoot/EA1/EA6/EA2/EA3/EA4/EA2/EA303.htm", "4.png", "", "", "{D5F96CB5-D2B7-4c2e-9D25-77B0BEA0CEE1}", "Package");
-tocTab[tocTab.length] = new Array("0.1.6.2.3.4.3", "1", "Transactions - TTA", "EARoot/EA1/EA6/EA2/EA3/EA4/EA3/EA314.htm", "4.png", "", "", "{AF30220C-E063-46fa-8511-06FC9426D6D9}", "Package");
-tocTab[tocTab.length] = new Array("0.1.6.2.3.4.4", "1", "Transactions - IHE", "EARoot/EA1/EA6/EA2/EA3/EA4/EA4/EA324.htm", "4.png", "", "", "{EE27377A-49EB-4613-8ABC-92018B6BA2E1}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.2.3.4.1", "1", "Uitwisselpatronen", "EARoot/EA1/EA6/EA2/EA3/EA4/EA1/EA267.htm", "4.png", "", "", "{6BA3E7C3-864E-4bbc-92CA-B2044C0C2292}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.2.3.4.2", "1", "Technical agreements - TTA", "EARoot/EA1/EA6/EA2/EA3/EA4/EA2/EA278.htm", "4.png", "", "", "{D5F96CB5-D2B7-4c2e-9D25-77B0BEA0CEE1}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.2.3.4.3", "1", "Transactions - TTA", "EARoot/EA1/EA6/EA2/EA3/EA4/EA3/EA289.htm", "4.png", "", "", "{AF30220C-E063-46fa-8511-06FC9426D6D9}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.2.3.4.4", "1", "Transactions - IHE", "EARoot/EA1/EA6/EA2/EA3/EA4/EA4/EA299.htm", "4.png", "", "", "{EE27377A-49EB-4613-8ABC-92018B6BA2E1}", "Package");

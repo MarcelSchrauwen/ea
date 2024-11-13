@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.1.6.1", "", "Strategy", "EARoot/EA1/EA6/EA1/EA244.htm", "4.png", "", "", "{F1A53A2C-B3C6-4d4a-AC94-8782556D2FE9}", "Package");
-tocTab[tocTab.length] = new Array("0.1.6.2", "1", "Business", "EARoot/EA1/EA6/EA2/EA245.htm", "4.png", "", "", "{56FC6A58-2406-4a99-8372-87AF43150497}", "Package");
-tocTab[tocTab.length] = new Array("0.1.6.3", "", "Application", "EARoot/EA1/EA6/EA3/EA344.htm", "4.png", "", "", "{55366A13-F1E4-46d9-854D-CAF9310CD1E3}", "Package");
-tocTab[tocTab.length] = new Array("0.1.6.4", "", "Technology & Physical", "EARoot/EA1/EA6/EA4/EA345.htm", "4.png", "", "", "{BE37C741-E0FA-4d5d-8BC4-84DE6219CA72}", "Package");
-tocTab[tocTab.length] = new Array("0.1.6.5", "1", "Motivation ", "EARoot/EA1/EA6/EA5/EA346.htm", "4.png", "", "", "{F072FBF9-2994-4012-A775-8E9343081ADA}", "Package");
-tocTab[tocTab.length] = new Array("0.1.6.6", "1", "Implementation & Migration", "EARoot/EA1/EA6/EA6/EA396.htm", "4.png", "", "", "{797409D2-4C96-4204-8006-167CB82E0FE9}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.1", "", "Strategy", "EARoot/EA1/EA6/EA1/EA219.htm", "4.png", "", "", "{F1A53A2C-B3C6-4d4a-AC94-8782556D2FE9}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.2", "1", "Business", "EARoot/EA1/EA6/EA2/EA220.htm", "4.png", "", "", "{56FC6A58-2406-4a99-8372-87AF43150497}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.3", "", "Application", "EARoot/EA1/EA6/EA3/EA319.htm", "4.png", "", "", "{55366A13-F1E4-46d9-854D-CAF9310CD1E3}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.4", "", "Technology & Physical", "EARoot/EA1/EA6/EA4/EA320.htm", "4.png", "", "", "{BE37C741-E0FA-4d5d-8BC4-84DE6219CA72}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.5", "1", "Motivation ", "EARoot/EA1/EA6/EA5/EA321.htm", "4.png", "", "", "{F072FBF9-2994-4012-A775-8E9343081ADA}", "Package");
+tocTab[tocTab.length] = new Array("0.1.6.6", "1", "Implementation & Migration", "EARoot/EA1/EA6/EA6/EA371.htm", "4.png", "", "", "{797409D2-4C96-4204-8006-167CB82E0FE9}", "Package");
