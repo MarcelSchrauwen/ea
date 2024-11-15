@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.2.6.3:1", "", "Push - Applicatiediagram", "EARoot/EA2/EA6/EA3/EA677.htm", "175.png", "14226", "0", "", "Logical diagram0","{9B0387E7-FA3F-4a5e-A47B-0D7541987788}");
-tocTab[tocTab.length] = new Array("0.2.6.3:2", "", "Push - Sequence diagram - IHE XDR", "EARoot/EA2/EA6/EA3/EA679.htm", "185.png", "14237", "0", "", "Sequence diagram0","{7494791F-8B17-438a-BD2D-C411A10AC381}");
-tocTab[tocTab.length] = new Array("0.2.6.3:3", "", "Push - Sequence diagram - FHIR", "EARoot/EA2/EA6/EA3/EA681.htm", "185.png", "14240", "0", "", "Sequence diagram0","{0B4C26F3-AD43-4f98-95D6-CB7E8AD4E073}");
+tocTab[tocTab.length] = new Array("0.2.6.3:1", "", "Push - Applicatiediagram", "EARoot/EA2/EA6/EA3/EA689.htm", "175.png", "14226", "0", "", "Logical diagram0","{9B0387E7-FA3F-4a5e-A47B-0D7541987788}");
+tocTab[tocTab.length] = new Array("0.2.6.3:2", "", "Push - Sequence diagram - IHE XDR", "EARoot/EA2/EA6/EA3/EA691.htm", "185.png", "14237", "0", "", "Sequence diagram0","{7494791F-8B17-438a-BD2D-C411A10AC381}");
+tocTab[tocTab.length] = new Array("0.2.6.3:3", "", "Push - Sequence diagram - FHIR", "EARoot/EA2/EA6/EA3/EA693.htm", "185.png", "14240", "0", "", "Sequence diagram0","{0B4C26F3-AD43-4f98-95D6-CB7E8AD4E073}");
