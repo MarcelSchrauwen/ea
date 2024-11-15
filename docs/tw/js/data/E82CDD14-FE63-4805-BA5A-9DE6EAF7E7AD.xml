@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.2.1:1", "", "Metamodel generiek", "EARoot/EA2/EA1/EA531.htm", "175.png", "12548", "0", "", "Logical diagram0","{7D76CE06-7EF1-4629-8683-D489BB2E3736}");
-tocTab[tocTab.length] = new Array("0.2.1:2", "", "Voorbeeld invulling generiek metamodel", "EARoot/EA2/EA1/EA533.htm", "175.png", "12549", "0", "", "Logical diagram0","{7BF85BC6-BF80-436d-AB5E-AE6505BDF81F}");
-tocTab[tocTab.length] = new Array("0.2.1:3", "", "Metamodel sequence diagram", "EARoot/EA2/EA1/EA535.htm", "185.png", "12590", "0", "", "Sequence diagram0","{B49BDBD0-A6E0-46d4-AA6C-B784EABD25EB}");
-tocTab[tocTab.length] = new Array("0.2.1:4", "", "Actor1", "EARoot/EA2/EA1/EA538.htm", "6.png", "E88214", "0", "", "Actor0","{B0D35DBD-D0E6-4a45-BE2E-DFD136E91829}");
-tocTab[tocTab.length] = new Array("0.2.1.1", "1", "Metamodel Elementen", "EARoot/EA2/EA1/EA1/EA546.htm", "4.png", "", "", "{E26B23B3-F296-4c5f-83EC-E4E77657C25D}", "Package");
+tocTab[tocTab.length] = new Array("0.2.1:1", "", "Metamodel generiek", "EARoot/EA2/EA1/EA570.htm", "175.png", "12548", "0", "", "Logical diagram0","{7D76CE06-7EF1-4629-8683-D489BB2E3736}");
+tocTab[tocTab.length] = new Array("0.2.1:2", "", "Voorbeeld invulling generiek metamodel", "EARoot/EA2/EA1/EA572.htm", "175.png", "12549", "0", "", "Logical diagram0","{7BF85BC6-BF80-436d-AB5E-AE6505BDF81F}");
+tocTab[tocTab.length] = new Array("0.2.1:3", "", "Metamodel sequence diagram", "EARoot/EA2/EA1/EA574.htm", "185.png", "12590", "0", "", "Sequence diagram0","{B49BDBD0-A6E0-46d4-AA6C-B784EABD25EB}");
+tocTab[tocTab.length] = new Array("0.2.1:4", "", "Actor1", "EARoot/EA2/EA1/EA577.htm", "6.png", "E88214", "0", "", "Actor0","{B0D35DBD-D0E6-4a45-BE2E-DFD136E91829}");
+tocTab[tocTab.length] = new Array("0.2.1.1", "1", "Metamodel Elementen", "EARoot/EA2/EA1/EA1/EA585.htm", "4.png", "", "", "{E26B23B3-F296-4c5f-83EC-E4E77657C25D}", "Package");

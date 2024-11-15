@@ -1,7 +1,7 @@
 tocTab[tocTab.length] = new Array("0.1.3.1", "1", "Soorten afspraken", "EARoot/EA1/EA3/EA1/EA36.htm", "4.png", "", "", "{CDFD1389-1441-4c7b-9CEF-E92D235E9E17}", "Package");
 tocTab[tocTab.length] = new Array("0.1.3.2", "1", "Architectuurprincipes", "EARoot/EA1/EA3/EA2/EA64.htm", "4.png", "", "", "{139019E7-154A-4756-9732-CC684921572D}", "Package");
 tocTab[tocTab.length] = new Array("0.1.3.3", "1", "Juridische afspraken", "EARoot/EA1/EA3/EA3/EA68.htm", "4.png", "", "", "{CAA5FC91-1285-4c80-B1D0-48228DDF23E4}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3.4", "1", "Vertrouwensafspraken", "EARoot/EA1/EA3/EA4/EA110.htm", "4.png", "", "", "{2751BF64-5B3D-455b-9EB3-4F7E8849BF4D}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3.5", "1", "Voorwaarden", "EARoot/EA1/EA3/EA5/EA122.htm", "4.png", "", "", "{584D12F1-0F32-4792-B30D-374F59FA2136}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3.6", "1", "Technische kern", "EARoot/EA1/EA3/EA6/EA124.htm", "4.png", "", "", "{B5C0E5FC-E593-4c88-BE33-456E7AD32174}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3.7", "1", "Implementatiewijzer zorgtoepassingen", "EARoot/EA1/EA3/EA7/EA229.htm", "4.png", "", "", "{54B048B3-C08F-4ba9-ADE2-3A51711CEC97}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.4", "1", "Vertrouwensafspraken", "EARoot/EA1/EA3/EA4/EA86.htm", "4.png", "", "", "{2751BF64-5B3D-455b-9EB3-4F7E8849BF4D}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.5", "1", "Voorwaarden", "EARoot/EA1/EA3/EA5/EA97.htm", "4.png", "", "", "{584D12F1-0F32-4792-B30D-374F59FA2136}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.6", "1", "Technische kern", "EARoot/EA1/EA3/EA6/EA99.htm", "4.png", "", "", "{B5C0E5FC-E593-4c88-BE33-456E7AD32174}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.7", "1", "Implementatiewijzer zorgtoepassingen", "EARoot/EA1/EA3/EA7/EA204.htm", "4.png", "", "", "{54B048B3-C08F-4ba9-ADE2-3A51711CEC97}", "Package");
