@@ -453,8 +453,9 @@ UL {
 	margin: 5px;
 	margin-top: 0px;
 	display: inline-table;
-	min-width: 65%;
-	width:20px;
+	/* min-width: 65%; */
+	/* width:20px; */
+	width: auto;
 	border-radius: 10px;
 	padding-left: 15px;
 	height: 100%;
