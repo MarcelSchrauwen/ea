@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.1:1", "", "Voortgang (15-11-2024)", "EARoot/EA1/EA1/EA9.htm", "188.png", "15396", "0", "", "Custom diagram0","{0B6E593A-4ECB-44fb-B087-16CD10059556}");
-tocTab[tocTab.length] = new Array("0.1.1:2", "", "Leeswijzer", "EARoot/EA1/EA1/EA12.htm", "204.png", "E103714", "0", "", "InformationItem0","{526C1D48-A424-412e-AEF4-21EFC27EB537}");
-tocTab[tocTab.length] = new Array("0.1.1:3", "", "Mappen afspraken op stelselpublicatie", "EARoot/EA1/EA1/EA13.htm", "204.png", "E103935", "0", "", "InformationItem0","{770608ED-77F0-4835-993A-EA9EE38B8D33}");
-tocTab[tocTab.length] = new Array("0.1.1:4", "", "Linken afspraken", "EARoot/EA1/EA1/EA14.htm", "204.png", "E103931", "0", "", "InformationItem0","{686210EF-2C2F-4e47-A125-49FCF3D1B454}");
+tocTab[tocTab.length] = new Array("0.1.1:1", "", "Voortgang (15-11-2024)", "EARoot/EA1/EA1/EA10.htm", "188.png", "15396", "0", "", "Custom diagram0","{0B6E593A-4ECB-44fb-B087-16CD10059556}");
+tocTab[tocTab.length] = new Array("0.1.1:2", "", "Leeswijzer", "EARoot/EA1/EA1/EA13.htm", "204.png", "E103714", "0", "", "InformationItem0","{526C1D48-A424-412e-AEF4-21EFC27EB537}");
+tocTab[tocTab.length] = new Array("0.1.1:3", "", "Mappen afspraken op stelselpublicatie", "EARoot/EA1/EA1/EA14.htm", "204.png", "E103935", "0", "", "InformationItem0","{770608ED-77F0-4835-993A-EA9EE38B8D33}");
+tocTab[tocTab.length] = new Array("0.1.1:4", "", "Linken afspraken", "EARoot/EA1/EA1/EA15.htm", "204.png", "E103931", "0", "", "InformationItem0","{686210EF-2C2F-4e47-A125-49FCF3D1B454}");

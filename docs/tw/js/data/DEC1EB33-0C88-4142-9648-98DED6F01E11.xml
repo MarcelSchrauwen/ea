@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.1.4:1", "", "Governancemodel NEN7522", "EARoot/EA1/EA4/EA206.htm", "175.png", "15570", "0", "", "Logical diagram0","{30459C9B-66A1-4559-8F82-3DA9DFDD7110}");
-tocTab[tocTab.length] = new Array("0.1.4:2", "", "Functioneel beheerder", "EARoot/EA1/EA4/EA208.htm", "175.png", "15571", "0", "", "Logical diagram0","{804E9AC0-451F-45ba-AC2F-EE6FFFAEB509}");
+tocTab[tocTab.length] = new Array("0.1.4:1", "", "Governancemodel NEN7522", "EARoot/EA1/EA4/EA207.htm", "175.png", "15570", "0", "", "Logical diagram0","{30459C9B-66A1-4559-8F82-3DA9DFDD7110}");
+tocTab[tocTab.length] = new Array("0.1.4:2", "", "Functioneel beheerder", "EARoot/EA1/EA4/EA209.htm", "175.png", "15571", "0", "", "Logical diagram0","{804E9AC0-451F-45ba-AC2F-EE6FFFAEB509}");
