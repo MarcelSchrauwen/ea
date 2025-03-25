@@ -50,7 +50,7 @@ $(document).ready(function() {
       resizable: false
     },
     west: {
-			size: 450,
+			size: 400,
 			spacing_open: 8
 		},
     west__childOptions: {
